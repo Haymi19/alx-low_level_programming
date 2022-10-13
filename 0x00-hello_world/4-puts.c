@@ -1,11 +1,11 @@
 #include<stdio.h>
-using namespace std;
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-        //string initialization
-    char Mystr[] = ""programming is like building a multilingual puzzle"
-
-    puts(Mystr); //writing the string to stdout
-
-    return 0;
+	puts("\"programming is like building multilingual puzzle"
+	return (0);
 }
