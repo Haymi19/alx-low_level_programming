@@ -6,12 +6,16 @@
  */
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-		char small = tolower(x);
-		putchar(small);
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz"
 
+	int i;
+
+	for (i = 1; i <= 26; i++)
+	{
+		putchar(alphabet[26]);
 	}
+	putchar('\n');
+
 	return (0);
 }
 
