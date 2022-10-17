@@ -16,8 +16,12 @@ int main(void)
 	{
 		putchar(base16[i]);
 
-		putchar("%x");
+		hex[i] = "%x";
 
+		while (base16[i] = hex[i];
+		{
+		putchar(hex[i]);
+		}
 	}
 	putchar('\n');
 
