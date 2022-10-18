@@ -8,7 +8,7 @@
  *
  * Betty: Documentation style
  */
-int _putchar(c)
+int _putchar(char);
 
 int main(void)
 {
