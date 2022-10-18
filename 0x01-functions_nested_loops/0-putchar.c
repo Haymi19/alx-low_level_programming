@@ -1,6 +1,7 @@
+#include <main.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - "_putchar"
  *
  * Return: Always 0 (Success)
  *
@@ -8,12 +9,18 @@
  */
 int main(void)
 {
-	int i;
+	int c;
 
-	char _putchar = i;
+	char c = _putchar;
 
-	putchar(i);
+	for
+		c = _putchar;
 
+	{
+
+	putchar(c);
+
+	}
 	putchar('\n');
 
 	return (0);
