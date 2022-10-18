@@ -1,11 +1,15 @@
+#include <main.h>
+
 #include <stdio.h>
 /**
- * main - "_putchar"
+ * main - print _putchar
  *
  * Return: Always 0 (Success)
  *
  * Betty: Documentation style
  */
+int _putchar(c)
+
 int main(void)
 {
 
