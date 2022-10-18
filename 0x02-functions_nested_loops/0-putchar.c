@@ -6,20 +6,15 @@
  *
  * Betty: Documentation style
  */
+int putchar (int c)
+
 int main(void)
 {
-	int i;
 
-	char c = _putchar;
+	char c = "_putchar";
 
-	for
-	       i = c;
+	putchar(c);
 
-	{
-
-	putchar(c, i);
-
-	}
 	putchar('\n');
 
 	return (0);
