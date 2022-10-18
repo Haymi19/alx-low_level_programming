@@ -6,7 +6,7 @@
  *
  * Betty: Documentation style
  */
-void print_alphabet(i);
+void print_alphabet(int i);
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 26; i++;)
+	for (i = 0; i < 26; i++);
 	{
 		putchar(alphabet[i]);
 	}
