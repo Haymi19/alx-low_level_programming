@@ -17,10 +17,10 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 
-		putchar(alphabet[i]);
+		_putchar(alphabet[i]);
 
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
