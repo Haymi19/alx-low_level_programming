@@ -6,15 +6,15 @@
  *
  * Betty: Documentation style
  */
-void print_alphabet(void);
+void print_alphabet(i);
 
 int main(void)
 {
 	int i;
 
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz"
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 26; i++;)
 	{
 		putchar(alphabet[i]);
 	}
