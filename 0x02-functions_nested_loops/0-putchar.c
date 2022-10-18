@@ -6,14 +6,15 @@
  *
  * Betty: Documentation style
  */
-int putchar (int c)
-
 int main(void)
 {
 
 	char c = "_putchar";
+	{
 
 	putchar(c);
+
+	}
 
 	putchar('\n');
 
