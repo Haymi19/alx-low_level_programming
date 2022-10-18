@@ -8,7 +8,7 @@
  *
  * Betty: Documentation style
  */
-void print_alphabet(int i);
+void print_alphabet(void)
 
 int main(void)
 {
