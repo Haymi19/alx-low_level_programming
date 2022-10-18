@@ -1,6 +1,5 @@
 #include "main.h"
 
-#include <stdio.h>
 /**
  * main - print alphabet in lowercase
  *
@@ -14,12 +13,10 @@ int main(void)
 {
 	int i;
 
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-
-	for (i = 0; i < 26; i++)
+	for (i = 97; i <= 122; i++)
 	{
 
-		putchar(alphabet[i]);
+		_putchar(i);
 
 	}
 	_putchar('\n');
