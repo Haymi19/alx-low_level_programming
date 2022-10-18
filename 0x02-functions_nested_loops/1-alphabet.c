@@ -8,7 +8,7 @@
  *
  * Betty: Documentation style
  */
-void print_alphabet(void)
+void print_alphabet(void);
 
 int main(void)
 {
@@ -18,7 +18,9 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
+
 		putchar(alphabet[i]);
+
 	}
 	putchar('\n');
 
