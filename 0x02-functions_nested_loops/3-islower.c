@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
- * main - print alphabet islower.
+ * * _islower - Shows 1 if the input is a
+ * lowercase character. Another cases, shows
+ * 0
  *
- * Return 1 if c islowercase
- * Return 0 otherwise
+ * @c: The character in ASCII code
+ *
+ * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int c)
 {
-	if (c = 97; c < 122; c++)
+	if (c >= 97 && c <= 122)
 	{
-		_putchar(c);
 		return (1);
 	}
 	else
-		_putchar(c);
-	return(0);
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
