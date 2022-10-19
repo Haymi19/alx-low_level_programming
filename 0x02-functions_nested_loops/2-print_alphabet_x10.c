@@ -11,7 +11,8 @@ void print_alphabet_x10(void)
 
 	for (i = 97; i <= 122; i++)
 	{
-		_putchar(i, &10);
+		_putchar(i);
+		print_alphabet(10);
 	}
 	_putchar('\n');
 }
