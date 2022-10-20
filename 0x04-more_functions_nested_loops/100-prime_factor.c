@@ -10,7 +10,7 @@ int main(void)
 
 	n = 612852475143;
 
-	long int div = 2, ans = 0, maxFact;
+	div = 2, ans = 0, maxFact;
 
 	while (n != 0)
 	{
@@ -26,7 +26,7 @@ int main(void)
 
 			if (n == 1)
 			{
-				printf("%d", maxFact);
+				printf("%ld", maxFact);
 				ans = 1;
 				break;
 			}
