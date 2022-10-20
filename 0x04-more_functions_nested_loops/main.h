@@ -3,6 +3,7 @@
 
 int _putchar(char);
 int _isupper(int c);
+void print_numbers(void);
 
 #endif
 
