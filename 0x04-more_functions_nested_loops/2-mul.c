@@ -3,17 +3,13 @@
 /**
  * mul - prints the multible 0f a and b.
  *
- * @c: input number from ASCII code.
- * @b: input number from ASCII code.
+ * @c: input number one.
+ * @b: input number two.
  *
- * Return: Always 0 (Success)
+ * Return: Multible of a and b.
  */
 int mul(int a, int b)
 {
-	int a, b;
-	{
-	printf("%d", a * b);
-	}
-	_putchar('\n');
+	return (a * b);
 }
 
