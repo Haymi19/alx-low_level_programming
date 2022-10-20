@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- * print_line - Prints a line and returns
- * 0.
+ * print_line - Prints a line using character _
+ * n times.
  *
  * @n: number of times character _ should be printed.
  *
- * Return: character _ printed n times.
+ * Return: Prints a line.
  */
 void print_line(int n)
 {
-	int i;
-
-	i = 95;
-
-	if ((n > 0 && n++))
+	if (n > 0)
 	{
-		_putchar(i);
+		_putchar(95);
 		_putchar('\n');
 	}
 	else
