@@ -4,17 +4,20 @@
 /**
  * print_rev - prints a string in reverse.
  *
+ * @str: string to be printed.
  * @s: string to be printed.
  */
 void print_rev(char *s)
 {
 	int len, i;
-	
+
+	char *str;
+
 	char *start, *end, temp;  
 
-	len = strlen (s);
+	len = strlen(str);
 
-	start = s;
+	start = str;
 
 	end = s;
 
