@@ -9,31 +9,17 @@
  */
 void print_rev(char *s)
 {
-	int len, i;
+	int count = 0;
 
-	char *str;
-
-	char *start, *end, temp;  
-
-	len = strlen(str);
-
-	start = str;
-
-	end = s;
-
-	for (i = 0; i < len - 1; i++)
-	end++;
-
-	for (i = 0; i < len/2; i++)
+	while (count >= 0)
 	{
-		temp = *end;
-
-		*end = *start;
-
-		*start = temp;
-
-		start++;
-
-		end--;
+		if (s[count] == '\0')
+			break;
+		count++;
 	}
+
+	for (count--; count >= 0; count--)
+		_putchar(s[count]);
+	
+	_putchar('\n');
 }
