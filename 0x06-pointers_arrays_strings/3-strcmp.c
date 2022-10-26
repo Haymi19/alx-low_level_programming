@@ -6,14 +6,20 @@
  *
  * @s1: string one.
  * @s2: string two.
+ *
+ * Return: result.
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 == *s2)
+	int i = 0, result = 0;
+
+	while (result == 0)
 	{
-		if (*s1 != '\0' || *s2 != '\0')
+		if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
 			break;
-		s1++;
-		s2++;
+		result = *(s1 + i) - *(s2 + i);
+		i++;
 	}
+
+	return (result);
 }
