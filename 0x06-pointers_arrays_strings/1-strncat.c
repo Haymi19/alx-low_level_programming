@@ -32,10 +32,6 @@ char *_strncat(char *dest, char *src, int n)
 			count++;
 			count1++;
 		}
-	if (i >= n)
-		*(src + count1) != '\0';
-		count1++;
-	}
 
 	return (dest);
 }
