@@ -23,10 +23,10 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*(dest + count) = *(src + count1);
 		if (*(src + count1) == '\0')
-				break;
+			break;
 
-			count++;
-			count1++;
+		count++;
+		count1++;
 	}
 
 	return (dest);
