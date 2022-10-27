@@ -4,15 +4,20 @@
 /**
  * *string_toupper - changes all lower case in to uppercase.
  *
- * @str - the string.
+ * @s: the input string.
+ *
+ * Return: the pointer to dest.
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	while (*str)
+	int counter = 0;
+
+	while (*(s + counter) != '\0')
 	{
-		*str = (*str >= 'a' && *str <= 'z') ? *str - 32 : *str;
-		str++;
+		if ((*(s + counter) >= 97) && (*(s + counter) <= 122))
+			*(s + counter) = *(s + counter) - 32;
+		counter++;
 	}
-	_putchar(*str++);
+	return (s);
 }
 
