@@ -6,6 +6,7 @@
  *
  * @dest: string one.
  * @src: string two.
+ * @n: input integer.
  *
  * Return: pointer to dest.
  */
