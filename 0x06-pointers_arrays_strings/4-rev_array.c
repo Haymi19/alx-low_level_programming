@@ -5,21 +5,19 @@
  * reverse_array - reverses array of an integer.
  *
  * @a: array to be reversed.
+ * @n: number of element in the array.
  */
 void reverse_array(int *a, int n)
 {
-	int a[n];
+	int i, j, temp;
 
-	int temp;
-
-	for (int i = 0; i < n / 2; i++)
+	for (i = 0; i < n - 1; i++)
 	{
-		temp = a[i];
-		a[i] = a[ n - i - 1];
-		a[ n - i - 1] = temp;
-	}
-	for (int i = 0; i < n; i++)
-	{
-		_putchar(a[i]);
+		for (j = i + 1; j > 0; j--)
+		{
+			temp = *(a + j);
+			*(a + j) = *(a + (j - 1));
+			 *(a + (j - 1)) = temp;
+		}
 	}
 }
