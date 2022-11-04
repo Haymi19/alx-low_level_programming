@@ -3,8 +3,7 @@
 #include <ctype.h>
 
 /**
- * add - Adds two positive integers and returns
- * the result.
+ * main - Adds two positive integers.
  *
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
