@@ -11,5 +11,5 @@ int _atoi(char *s)
 
 	_putchar(x);
 
-	return(s);
+	return(*s);
 }
