@@ -22,9 +22,9 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 	{
 		if (size == 0)
-			return ('\0');
+			return (NULL);
 		else
-			_putchar(ptr[i]);
+			return (array[i]);
 	}
 	return (array);
 }
