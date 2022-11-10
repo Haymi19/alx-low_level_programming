@@ -23,7 +23,7 @@ void *malloc_checked(unsigned int b)
 			free(ptr);
 			return (0);
 		}
-		return(ptr);
+		return (ptr);
 	}
 	return (0);
 }
