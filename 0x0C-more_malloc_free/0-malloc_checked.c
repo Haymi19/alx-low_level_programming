@@ -10,20 +10,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	char *c;
 
-	unsigned int size = 0, i;
-
-	for (i = 0; i < size; i++)
-	{
-		ptr = malloc(size * sizeof(b));
-
-		if (ptr == NULL)
-		{
-			free(ptr);
-			return (0);
-		}
-		return (ptr);
-	}
-	return (0);
+	c = malloc(b);
+	if (c == NULL)
+		exit(98);
+	return (c);
 }
