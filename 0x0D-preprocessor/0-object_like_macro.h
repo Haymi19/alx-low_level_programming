@@ -1,5 +1,5 @@
-#ifndef _main_h_
-#define _main_h_
+#ifndef _object_like_macro_h_
+#define _object_like_macro_h_
 #define SIZE 1024
 
 int _putchar(char);
