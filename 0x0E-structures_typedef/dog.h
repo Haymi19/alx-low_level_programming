@@ -1,7 +1,14 @@
-#ifndef _main_h_
-#define _main_h_
-#include "dog.h"
+#ifndef dog_h_
+#define dog_h_
 
+/**
+ * struct dog - a structure about a dog.
+ *
+ * @name: name of the dog.
+ * @age: age of the dog.
+ * @owner: owner of the dog.
+ *
+ */
 struct dog
 {
 	char *name;
