@@ -10,14 +10,11 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	int i;
+	int i = 0;
 
 	if (name)
 	{
-		for (i = 0; i < name[i]; i++)
-		{
-			f(&name[i]);
-		}
+		f(&name[i]);
 	}
-	return ;
+	i++;
 }
