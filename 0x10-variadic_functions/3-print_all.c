@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 
 	while (format)
 	{
-		printf("%s", va_arg(args, const char * const));
+		printf("%s, %d, %f, %c", va_arg(args, const char * const));
 	}
 	va_end(args);
 }
