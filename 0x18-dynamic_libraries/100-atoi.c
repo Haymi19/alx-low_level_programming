@@ -10,5 +10,6 @@ int _atoi(char *s)
 	int x = _atoi(s);
 
 	_putchar(x);
-}
 
+	return (x);
+}
